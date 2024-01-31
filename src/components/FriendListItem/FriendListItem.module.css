@@ -1,0 +1,24 @@
+.item {
+  background-color: var(--secondary-bg-color);
+  border-radius: 5px;
+  border: 1px solid var(--primary-bg-color);
+  box-shadow: 2px 2px 5px var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}

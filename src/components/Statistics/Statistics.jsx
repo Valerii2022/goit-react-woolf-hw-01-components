@@ -14,7 +14,7 @@ const Statistics = ({ title, stats }) => {
               className={css.item}
               style={{ backgroundColor: getRandomBgColor() }}
             >
-              <span className={css.label}>{el.label}</span>
+              <span>{el.label}</span>
               <span className={css.percentage}>{el.percentage}</span>
             </li>
           );

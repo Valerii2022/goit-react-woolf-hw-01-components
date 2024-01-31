@@ -17,6 +17,14 @@
   padding: 20px;
 }
 
+.avatar {
+  background-color: var(--secondary-bg-color);
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .name {
   color: #141313;
   font-size: 22px;
@@ -27,14 +35,6 @@
 .location {
   color: var(--secondary-color);
   font-size: 16px;
-}
-
-.avatar {
-  background-color: var(--secondary-bg-color);
-  padding: 2px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
 }
 
 .stats {
