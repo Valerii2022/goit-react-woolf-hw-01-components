@@ -5,9 +5,7 @@ const FriendlistItem = ({ avatar, name, isOnline }) => {
     <li className={css.item}>
       <span
         className={css.status}
-        style={
-          isOnline ? { backgroundColor: 'green' } : { backgroundColor: 'red' }
-        }
+        style={{ backgroundColor: isOnline ? 'green' : 'red' }}
       ></span>
 
       <img src={avatar} alt="User avatar" width="48" />
